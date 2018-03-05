@@ -1,0 +1,6 @@
+217. Contains Duplicate
+简单的判重，使用hash_set,每当有新元素插入前，先检查集合中是否存在。
+
+219. Contains Duplicate II
+217的升级版本，要在一定的范围内判重，因此只要多记录每个元素最后出现的索引即可，使用hash_map。
+
